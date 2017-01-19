@@ -1,13 +1,13 @@
 {
-  "name": "__BONES_NEEDS_A_NAME__",
+  "name": "Tiny-Travel-Books",
   "version": "0.0.1",
-  "description": "A happy little skeleton.",
+  "description": "I think the name says enough",
   "main": "index.js",
   "scripts": {
     "test": "check-node-version --node '>= 6.7.0' && bin/setup && mocha --compilers js:babel-register app/**/*.test.js app/**/*.test.jsx db/**/*.test.js server/**/*.test.js",
     "test-watch": "check-node-version --node '>= 6.7.0' && bin/setup && mocha --compilers js:babel-register --watch app/**/*.test.js app/**/*.test.jsx db/**/*.test.js server/**/*.test.js",
     "build": "check-node-version --node '>= 6.7.0' && bin/setup && webpack",
-    "build-watch": "check-node-version --node '>= 6.7.0' && bin/setup && webpack -w",
+    "build-watch": "check-node-version --node '>= 6.7.0' && bin/setup && webpack -w & node-sass -w app/sass/main.scss -o public/stylesheets",
     "build-branch": "bin/build-branch.sh",
     "deploy-heroku": "bin/deploy-heroku.sh",
     "start": "check-node-version --node '>= 6.7.0' && bin/setup && nodemon server/start.js",
@@ -15,19 +15,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/queerviolet/bones.git"
+    "url": "git+https://github.com/JulieBusch/tiny-travel-books"
   },
   "keywords": [
     "react",
     "redux",
     "skeleton"
   ],
-  "author": "Ashi Krishnan <me@ashi.works>",
+  "author": "Julie Busch",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/queerviolet/bones/issues"
+    "url": "https://github.com/JulieBusch/tiny-travel-books"
   },
-  "homepage": "https://github.com/queerviolet/bones#readme",
+  "homepage": "https://github.com/JulieBusch/tiny-travel-books",
   "dependencies": {
     "axios": "^0.15.2",
     "babel-preset-stage-2": "^6.18.0",
@@ -39,6 +39,7 @@
     "cookie-session": "^2.0.0-alpha.1",
     "enzyme": "^2.5.1",
     "express": "^4.14.0",
+    "node-sass": "^4.3.0",
     "nodemon": "^1.11.0",
     "passport": "^0.3.2",
     "passport-facebook": "^2.1.1",
