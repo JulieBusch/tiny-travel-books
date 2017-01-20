@@ -6,6 +6,15 @@ body {
   margin: 0;
   /*vertical-align: middle;*/ }
 
+.container {
+  /*display: flex;*/
+  /*justify-content: center;*/
+  width: 90%;
+  height: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
+
 .row {
   display: flex;
   text-align: center;
@@ -27,36 +36,6 @@ body {
   width: 15%;
   text-align: center;
   flex-direction: column; }
-
-.container {
-  /*display: flex;*/
-  /*justify-content: center;*/
-  width: 90%;
-  height: 100%;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto; }
-
-p {
-  width: 90%;
-  text-align: justify;
-  margin-left: auto;
-  margin-right: auto; }
-
-.background-image {
-  height: 100vh;
-  /*background-color: rgb(139, 168, 18);*/
-  padding: 0px;
-  width: 100%;
-  text-align: center;
-  font-size: xx-large;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url("/sunset4darker.JPG");
-  background-position: 0 -50px;
-  background-size: cover; }
 
 nav {
   display: flex;
@@ -100,10 +79,31 @@ nav {
   width: 50%;
   height: 60px; }
 
+.background-image {
+  height: 100vh;
+  /*background-color: rgb(139, 168, 18);*/
+  padding: 0px;
+  width: 100%;
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/sunset4darker.JPG");
+  background-position: 0 -50px;
+  background-size: cover; }
+
 .background-image > h1 {
   margin: 0px;
   vertical-align: middle;
   text-shadow: 2px 2px 5px black; }
+
+p {
+  width: 90%;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto; }
 
 #tailored {
   display: block; }

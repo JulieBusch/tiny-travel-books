@@ -1,5 +1,5 @@
 {
-  "name": "Tiny-Travel-Books",
+  "name": "tiny-travel-books",
   "version": "0.0.1",
   "description": "I think the name says enough",
   "main": "index.js",
@@ -11,7 +11,8 @@
     "build-branch": "bin/build-branch.sh",
     "deploy-heroku": "bin/deploy-heroku.sh",
     "start": "check-node-version --node '>= 6.7.0' && bin/setup && nodemon server/start.js",
-    "seed": "node db/seed.js"
+    "seed": "node db/seed.js",
+    "build-css": "node-sass -w app/sass/main.scss -o public/stylesheets"
   },
   "repository": {
     "type": "git",

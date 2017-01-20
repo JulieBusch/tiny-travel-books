@@ -26,7 +26,8 @@ render (
   <Provider store={store}>
     <Router history={browserHistory}>
       <Route path="/" component={ExampleApp}>
-        <IndexRedirect to="/" />
+        <IndexRedirect to="/home" />
+        <Route path='/home' component={App} />
       </Route>
     </Router>
   </Provider>,
