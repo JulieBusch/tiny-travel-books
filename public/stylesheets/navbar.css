@@ -2,17 +2,15 @@ nav {
   display: flex;
   height: 60px;
   width: 100%;
-  background-color: rgba(0, 0, 0, .3);
+  background-color: rgba(0, 0, 0, 0.3);
   position: fixed;
   top: 0;
-  align-items: center;
-}
+  align-items: center; }
 
 #nav-menu-left > h4 {
   margin: 15px;
   display: flex;
-  color: white;
-}
+  color: white; }
 
 #nav-menu-left {
   margin-left: 15px;
@@ -21,14 +19,12 @@ nav {
   display: flex;
   align-items: center;
   width: 50%;
-  height: 60px;
-}
+  height: 60px; }
 
 #nav-menu-right > h4 {
   margin: 15px;
   display: flex;
-  color: white;
-}
+  color: white; }
 
 #nav-menu-right {
   margin-right: 15px;
@@ -37,5 +33,4 @@ nav {
   justify-content: flex-end;
   display: flex;
   width: 50%;
-  height: 60px;
-}
+  height: 60px; }
