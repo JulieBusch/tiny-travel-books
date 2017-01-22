@@ -2,25 +2,22 @@ nav {
   display: flex;
   height: 60px;
   width: 100%;
-  background-color: rgb(0, 161, 168);
+  background-color: rgba(0, 0, 0, .3);
   position: fixed;
   top: 0;
   align-items: center;
-  /*vertical-align: middle;*/
 }
 
 #nav-menu-left > h4 {
   margin: 15px;
-  /*vertical-align: middle;*/
   display: flex;
+  color: white;
 }
 
 #nav-menu-left {
   margin-left: 15px;
   align-self: flex-start;
   justify-content: flex-start;
-  /*text-align: left;*/
-  /*vertical-align: middle;*/
   display: flex;
   align-items: center;
   width: 50%;
@@ -29,8 +26,8 @@ nav {
 
 #nav-menu-right > h4 {
   margin: 15px;
-  /*vertical-align: middle;*/
   display: flex;
+  color: white;
 }
 
 #nav-menu-right {
@@ -38,8 +35,6 @@ nav {
   align-self: flex-end;
   align-items: center;
   justify-content: flex-end;
-  /*text-align: right;
-  vertical-align: middle;*/
   display: flex;
   width: 50%;
   height: 60px;

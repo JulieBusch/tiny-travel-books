@@ -17,3 +17,20 @@
   margin: 0px;
   vertical-align: middle;
   text-shadow: 2px 2px 5px black; }
+
+.background-video {
+  background: #000;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -99; }
+
+.backgtound-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; }
