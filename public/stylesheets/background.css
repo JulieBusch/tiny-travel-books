@@ -1,0 +1,19 @@
+.background-image {
+  height: 100vh;
+  /*background-color: rgb(139, 168, 18);*/
+  padding: 0px;
+  width: 100%;
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/sunset4darker.JPG");
+  background-position: 0 -50px;
+  background-size: cover; }
+
+.background-image > h1 {
+  margin: 0px;
+  vertical-align: middle;
+  text-shadow: 2px 2px 5px black; }
