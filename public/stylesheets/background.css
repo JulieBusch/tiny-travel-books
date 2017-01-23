@@ -11,7 +11,8 @@
   justify-content: center;
   background-image: url("/sunset4darker.JPG");
   background-position: 0 -50px;
-  background-size: cover; }
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 .background-image > h1 {
   margin: 0px;

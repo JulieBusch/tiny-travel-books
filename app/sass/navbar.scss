@@ -8,11 +8,11 @@ nav {
   align-items: center;
 }
 
-#nav-menu-left > h4 {
-  margin: 15px;
-  display: flex;
-  color: white;
-}
+// #nav-menu-left > h4 {
+//   margin: 15px;
+//   display: flex;
+//   color: white;
+// }
 
 #nav-menu-left {
   margin-left: 15px;
@@ -22,13 +22,18 @@ nav {
   align-items: center;
   width: 50%;
   height: 60px;
+    h4 {
+      margin: 15px;
+      display: flex;
+      color: white;
+    }
 }
 
-#nav-menu-right > h4 {
-  margin: 15px;
-  display: flex;
-  color: white;
-}
+// #nav-menu-right > h4 {
+//   margin: 15px;
+//   display: flex;
+//   color: white;
+// }
 
 #nav-menu-right {
   margin-right: 15px;
@@ -38,4 +43,14 @@ nav {
   display: flex;
   width: 50%;
   height: 60px;
+    h4 {
+      margin: 15px;
+      display: flex;
+      color: white;
+    }
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }

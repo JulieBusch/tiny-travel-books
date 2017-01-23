@@ -9,6 +9,7 @@ import Jokes from './components/Jokes'
 import Login from './components/Login'
 import WhoAmI from './components/WhoAmI'
 import App from './components/App'
+import Builder from './components/Builder'
 
 const ExampleApp = connect(
   ({ auth }) => ({ user: auth })
@@ -28,6 +29,7 @@ render (
       <Route path="/" component={ExampleApp}>
         <IndexRedirect to="/home" />
         <Route path='/home' component={App} />
+        <Route path='/builder' component={Builder} />
       </Route>
     </Router>
   </Provider>,

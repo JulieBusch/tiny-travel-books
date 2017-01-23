@@ -40,6 +40,7 @@
     "cookie-session": "^2.0.0-alpha.1",
     "enzyme": "^2.5.1",
     "express": "^4.14.0",
+    "grommet": "^1.2.0",
     "mail-listener2": "^0.3.1",
     "node-sass": "^4.3.0",
     "nodemailer": "^2.7.0",
@@ -58,6 +59,7 @@
     "redux": "^3.6.0",
     "redux-logger": "^2.7.0",
     "redux-thunk": "^2.1.0",
+    "semantic-ui-react": "^0.64.3",
     "sequelize": "^3.24.6",
     "sinon": "^1.17.6",
     "sinon-chai": "^2.8.0"

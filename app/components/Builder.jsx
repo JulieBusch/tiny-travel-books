@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router';
 
+import Navbar from './Navbar';
+import Footer from './Footer';
+
 export default class Builder extends React.Component {
 
   constructor(props) {
@@ -10,7 +13,9 @@ export default class Builder extends React.Component {
   render() {
     return(
       <div>
+        <Navbar />
 
+        <Footer />
       </div>
     )
   }

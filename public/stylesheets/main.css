@@ -46,11 +46,6 @@ nav {
   top: 0;
   align-items: center; }
 
-#nav-menu-left > h4 {
-  margin: 15px;
-  display: flex;
-  color: white; }
-
 #nav-menu-left {
   margin-left: 15px;
   align-self: flex-start;
@@ -59,11 +54,10 @@ nav {
   align-items: center;
   width: 50%;
   height: 60px; }
-
-#nav-menu-right > h4 {
-  margin: 15px;
-  display: flex;
-  color: white; }
+  #nav-menu-left h4 {
+    margin: 15px;
+    display: flex;
+    color: white; }
 
 #nav-menu-right {
   margin-right: 15px;
@@ -73,6 +67,14 @@ nav {
   display: flex;
   width: 50%;
   height: 60px; }
+  #nav-menu-right h4 {
+    margin: 15px;
+    display: flex;
+    color: white; }
+
+a {
+  text-decoration: none;
+  color: white; }
 
 .background-image {
   height: 100vh;
@@ -87,7 +89,8 @@ nav {
   justify-content: center;
   background-image: url("/sunset4darker.JPG");
   background-position: 0 -50px;
-  background-size: cover; }
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 .background-image > h1 {
   margin: 0px;
@@ -125,9 +128,11 @@ p {
 #start {
   border-radius: 15px;
   border: solid white;
-  margin: 20px;
   background-color: rgba(0, 0, 0, 0.3);
   box-shadow: 1px 1px 5px black; }
+
+#start:hover {
+  background-color: rgba(0, 0, 0, 0.5); }
 
 #start > span {
   font-family: 'Lato', sans-serif;
